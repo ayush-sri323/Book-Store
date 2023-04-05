@@ -1,0 +1,138 @@
+.helloImElias {
+  margin: 0;
+}
+.helloImEliasContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 515px;
+}
+.live {
+  position: relative;
+  font-weight: 500;
+}
+.button {
+  position: absolute;
+  top: 279px;
+  left: 0;
+  border: 1px solid var(--primary);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--white);
+}
+.aboutMe1 {
+  position: absolute;
+  top: 90px;
+  left: 1px;
+  width: 515px;
+  height: 316px;
+}
+.projects {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line7Stroke {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 516px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+}
+.jcGellidonE3numcscugoUnsplaIcon {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 339px;
+  height: 507px;
+  object-fit: cover;
+}
+.frameChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameGroup {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+}
+.ellipseParent5,
+.frameContainer,
+.frameGroup {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent5 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+}
+.frameContainer {
+  position: absolute;
+  top: 279px;
+  left: 223px;
+  width: 104px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+}
+.line7Stroke1 {
+  position: absolute;
+  top: 507px;
+  left: 48px;
+  width: 271px;
+  height: 1px;
+}
+.aboutMe,
+.jcGellidonE3numcscugoUnsplaParent {
+  position: absolute;
+  top: 0;
+  left: 682px;
+  width: 343px;
+  height: 508px;
+}
+.aboutMe {
+  top: 1991px;
+  left: 170px;
+  width: 1025px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}

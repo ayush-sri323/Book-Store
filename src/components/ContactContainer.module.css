@@ -1,0 +1,68 @@
+.div,
+.projects {
+  position: relative;
+  font-weight: 500;
+}
+.projects {
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line7Stroke {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.frameParent,
+.imInterestedIn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameParent {
+  width: 317px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-13xl);
+}
+.imInterestedIn {
+  font-weight: 500;
+  display: inline-block;
+  width: 505px;
+}
+.imInterestedInFreelanceOpWrapper {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  width: 505px;
+  height: 63px;
+  color: var(--gray);
+}
+.contact,
+.contactInner {
+  position: absolute;
+  top: 83px;
+  left: 819px;
+  width: 204px;
+  height: 141px;
+  color: var(--white);
+}
+.contact {
+  top: 2615px;
+  left: 170px;
+  width: 1023px;
+  height: 224px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}

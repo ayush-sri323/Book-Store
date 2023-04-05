@@ -1,0 +1,218 @@
+.projectChild {
+  width: 330.58px;
+  height: 202px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.flask1,
+.html,
+.projectChild {
+  position: relative;
+}
+.flask1 {
+  display: none;
+}
+.htmlGroup,
+.htmlParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.htmlParent {
+  display: flex;
+}
+.htmlGroup {
+  display: none;
+}
+.chertnodes {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.minecraftServersHosting {
+  align-self: stretch;
+  position: relative;
+  color: var(--gray);
+}
+.live {
+  position: relative;
+  font-weight: 500;
+}
+.liveWrapper {
+  border: 1px solid var(--primary);
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.demoWrapper,
+.instanceParent,
+.liveWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.demoWrapper {
+  border: 1px solid var(--gray);
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--gray);
+}
+.instanceParent {
+  gap: var(--gap-base);
+}
+.chertnodesParent,
+.project {
+  display: flex;
+  flex-direction: column;
+}
+.chertnodesParent {
+  align-self: stretch;
+  border-top: 1px solid var(--gray);
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--white);
+}
+.project {
+  border: 1px solid var(--gray);
+}
+.demoContainer,
+.project,
+.projectParent,
+.rectangleParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.demoContainer {
+  border: 1px solid var(--gray);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--gray);
+}
+.projectParent,
+.rectangleParent {
+  display: flex;
+}
+.rectangleParent {
+  border: 1px solid var(--gray);
+  overflow: hidden;
+  flex-direction: column;
+}
+.projectParent {
+  position: absolute;
+  top: 90px;
+  left: 2px;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.projects1 {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line7Stroke {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.h2,
+.viewAll {
+  position: absolute;
+}
+.h2 {
+  top: 0;
+  left: 0;
+  width: 701px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.viewAll {
+  top: 10px;
+  left: 911px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--white);
+  cursor: pointer;
+}
+.h2Parent,
+.projects {
+  position: absolute;
+  width: 1027px;
+}
+.h2Parent {
+  top: 0;
+  left: 0;
+  height: 42px;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+}
+.projects {
+  top: 890px;
+  left: 171px;
+  height: 518px;
+}
+.phuketIsIn {
+  position: absolute;
+  top: 2992px;
+  left: 232px;
+  font-weight: 500;
+  display: inline-block;
+  width: 505px;
+}
+.githubIcon,
+.line10Stroke {
+  position: relative;
+  width: 1px;
+  height: 191px;
+  flex-shrink: 0;
+}
+.githubIcon {
+  width: 32px;
+  height: 32px;
+}
+.githubParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.home,
+.media {
+  background-color: var(--background);
+}
+.media {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.home {
+  position: relative;
+  width: 100%;
+  height: 3463px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}

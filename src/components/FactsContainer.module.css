@@ -1,0 +1,111 @@
+.div,
+.smallProjects {
+  position: relative;
+  font-weight: 500;
+}
+.smallProjects {
+  color: var(--white);
+}
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iLikeWinter {
+  position: relative;
+}
+.fact,
+.factParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fact {
+  border: 1px solid var(--gray);
+  padding: var(--padding-5xs);
+}
+.factParent {
+  gap: var(--gap-base);
+}
+.pizza {
+  color: var(--white);
+}
+.frameParent,
+.instanceWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+.frameChild,
+.frameChild1 {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.frameChild1 {
+  display: none;
+}
+.ellipseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.ellipseParent,
+.ellipseParent2,
+.frameGroup {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent2 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.logoIcon {
+  position: absolute;
+  top: 56px;
+  left: calc(50% + 21.5px);
+  width: 114px;
+  height: 114px;
+}
+.facts,
+.instanceContainer {
+  position: absolute;
+  top: 68px;
+  left: 761px;
+  width: 271px;
+  height: 169px;
+}
+.facts {
+  top: 1153px;
+  left: 171px;
+  width: 1032px;
+  height: 264px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}

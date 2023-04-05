@@ -1,0 +1,41 @@
+.messageMeHere {
+  position: relative;
+  font-weight: 600;
+}
+.discordIcon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.discordIcon,
+.elias {
+  position: relative;
+}
+.discordParent,
+.instanceParent,
+.messageMeHereParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.instanceParent,
+.messageMeHereParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--gray);
+}
+.messageMeHereParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--gray);
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

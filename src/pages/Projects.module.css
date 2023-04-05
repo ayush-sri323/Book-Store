@@ -1,0 +1,275 @@
+.frameChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameGroup,
+.frameParent {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  top: 1134px;
+  left: 1363px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameGroup {
+  top: 1545px;
+  left: 26px;
+}
+.ellipseParent10,
+.frameContainer,
+.frameGroup {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent10 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+}
+.frameContainer {
+  position: absolute;
+  top: 145px;
+  left: 46px;
+  width: 109px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+}
+.backgroundChild,
+.backgroundItem {
+  position: absolute;
+  top: 965px;
+  left: 0;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 155px;
+  height: 155px;
+}
+.backgroundItem {
+  top: 0;
+  left: 1375px;
+}
+.background {
+  position: absolute;
+  top: 256px;
+  left: -77px;
+  width: 1530px;
+  height: 1648px;
+}
+.div,
+.projects1 {
+  position: relative;
+  font-weight: 600;
+}
+.projects1 {
+  color: var(--white);
+}
+.listOfMy,
+.parent {
+  position: absolute;
+  left: 0;
+}
+.parent {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listOfMy {
+  top: 56px;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.title {
+  position: absolute;
+  top: 114px;
+  left: 171px;
+  width: 183px;
+  height: 77px;
+}
+.projectChild {
+  width: 330.58px;
+  height: 202px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.flask1,
+.html,
+.projectChild {
+  position: relative;
+}
+.flask1 {
+  display: none;
+}
+.htmlGroup,
+.htmlParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.htmlParent {
+  display: flex;
+}
+.htmlGroup {
+  display: none;
+}
+.chertnodes {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.minecraftServersHosting {
+  align-self: stretch;
+  position: relative;
+  color: var(--gray);
+}
+.live {
+  position: relative;
+  font-weight: 500;
+}
+.liveWrapper {
+  border: 1px solid var(--primary);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.chertnodesParent,
+.demoWrapper,
+.liveWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.demoWrapper {
+  border: 1px solid var(--gray);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--gray);
+}
+.chertnodesParent {
+  align-self: stretch;
+  border-top: 1px solid var(--gray);
+  flex-direction: column;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+  color: var(--white);
+}
+.demoContainer,
+.project {
+  border: 1px solid var(--gray);
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.demoContainer {
+  display: none;
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--gray);
+}
+.demoContainer,
+.frameParent1,
+.liveFrame,
+.projectParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.liveFrame {
+  border: 1px solid var(--primary);
+  display: none;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.frameParent1,
+.projectParent {
+  display: flex;
+  gap: var(--gap-base);
+}
+.frameParent1 {
+  position: absolute;
+  top: 378px;
+  left: 173px;
+  flex-direction: column;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+.smallProjects {
+  position: relative;
+  font-weight: 500;
+  color: var(--white);
+}
+.h2 {
+  position: absolute;
+  height: 1.89%;
+  width: 17.41%;
+  top: 11.39%;
+  right: 68.77%;
+  bottom: 86.71%;
+  left: 13.83%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.githubIcon,
+.line10Stroke {
+  position: relative;
+  width: 1px;
+  height: 191px;
+  flex-shrink: 0;
+}
+.githubIcon {
+  width: 32px;
+  height: 32px;
+}
+.githubParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.media,
+.projects {
+  background-color: var(--background);
+}
+.media {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.projects {
+  position: relative;
+  width: 100%;
+  height: 2217px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}

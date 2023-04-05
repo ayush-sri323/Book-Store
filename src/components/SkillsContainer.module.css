@@ -1,0 +1,220 @@
+.div,
+.projects {
+  position: relative;
+  font-weight: 500;
+}
+.projects {
+  color: var(--white);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line7Stroke {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 391px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.languages {
+  position: relative;
+  font-weight: 600;
+}
+.languagesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blockChild {
+  align-self: stretch;
+  border-top: 1px solid var(--gray);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.blockChild,
+.lua1,
+.typescript {
+  position: relative;
+}
+.lua1 {
+  display: none;
+}
+.pythonGroup,
+.typescriptParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typescriptParent {
+  display: flex;
+  gap: var(--gap-5xs);
+}
+.pythonGroup {
+  display: none;
+  gap: var(--gap-2xs);
+}
+.block,
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameGroup {
+  display: flex;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--gray);
+}
+.block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--gray);
+  padding: var(--padding-5xs) 0;
+}
+.block,
+.frameContainer,
+.pythonParent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  position: absolute;
+  top: 0;
+  left: 194px;
+  border: 1px solid var(--gray);
+  flex-direction: column;
+  padding: var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.pythonParent5 {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.frameParent1 {
+  top: 148px;
+  left: 388px;
+  box-sizing: border-box;
+  width: 196px;
+}
+.frameParent1,
+.frameParent3,
+.frameParent5 {
+  position: absolute;
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent3 {
+  top: 119px;
+  left: 194px;
+  box-sizing: border-box;
+  width: 178px;
+}
+.frameParent5 {
+  top: 0;
+  left: 388px;
+}
+.blockParent {
+  position: absolute;
+  top: 85px;
+  left: 440px;
+  width: 584px;
+  height: 280px;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.frameChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.ellipseParent,
+.frameParent7,
+.frameParent8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameParent7,
+.frameParent8 {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 63px;
+  height: 63px;
+  flex-direction: column;
+}
+.frameParent8 {
+  top: 143px;
+  left: 177px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 193px;
+  left: 297px;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 52px;
+  height: 52px;
+}
+.groupItem {
+  top: 0;
+  left: 227px;
+  width: 86px;
+  height: 86px;
+}
+.logoIcon {
+  position: absolute;
+  top: 169px;
+  left: calc(50% - 160.5px);
+  width: 114px;
+  height: 114px;
+}
+.instanceParent,
+.skills {
+  position: absolute;
+  top: 54px;
+  left: 32px;
+  width: 349px;
+  height: 282px;
+}
+.skills {
+  top: 1514px;
+  left: 173px;
+  width: 1024px;
+  height: 365px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}

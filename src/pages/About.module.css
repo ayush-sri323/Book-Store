@@ -1,0 +1,297 @@
+.frameChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameGroup,
+.frameParent {
+  position: absolute;
+  width: 103px;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  top: 1134px;
+  left: 1363px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameGroup {
+  top: 511px;
+  left: 1390px;
+}
+.ellipseParent10,
+.frameContainer,
+.frameGroup {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.ellipseParent10 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+}
+.frameContainer {
+  position: absolute;
+  top: 145px;
+  left: 46px;
+  width: 109px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+}
+.backgroundChild,
+.backgroundItem {
+  position: absolute;
+  top: 965px;
+  left: 0;
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  width: 155px;
+  height: 155px;
+}
+.backgroundItem {
+  top: 0;
+  left: 1375px;
+}
+.background {
+  position: absolute;
+  top: 256px;
+  left: -77px;
+  width: 1530px;
+  height: 1237px;
+}
+.aboutMe,
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.aboutMe {
+  color: var(--white);
+}
+.parent {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent,
+.title,
+.whoAmI {
+  position: absolute;
+}
+.whoAmI {
+  top: 56px;
+  left: 0;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.title {
+  top: 114px;
+  left: 171px;
+  width: 174px;
+  height: 77px;
+}
+.jcGellidonE3numcscugoUnsplaIcon {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 339px;
+  height: 507px;
+  object-fit: cover;
+}
+.frameParent1,
+.frameParent2 {
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameParent2 {
+  top: 279px;
+  left: 223px;
+  width: 104px;
+  height: 56px;
+}
+.line7Stroke {
+  position: absolute;
+  top: 507px;
+  left: 48px;
+  width: 271px;
+  height: 1px;
+}
+.jcGellidonE3numcscugoUnsplaParent {
+  position: absolute;
+  top: 0;
+  left: 685px;
+  width: 343px;
+  height: 508px;
+}
+.helloImElias {
+  margin: 0;
+}
+.helloImEliasContainer {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  line-height: 25px;
+  display: inline-block;
+  width: 515px;
+}
+.about1 {
+  position: absolute;
+  top: 199px;
+  left: 176px;
+  width: 1028px;
+  height: 508px;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+.div1,
+.smallProjects {
+  position: relative;
+  font-weight: 500;
+}
+.smallProjects {
+  color: var(--white);
+}
+.languagesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blockChild {
+  align-self: stretch;
+  border-top: 1px solid var(--gray);
+  box-sizing: border-box;
+  height: 1px;
+  flex-shrink: 0;
+}
+.blockChild,
+.lua1,
+.typescript {
+  position: relative;
+}
+.lua1 {
+  display: none;
+}
+.pythonGroup,
+.typescriptParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typescriptParent {
+  display: flex;
+  gap: var(--gap-5xs);
+}
+.pythonGroup {
+  display: none;
+  gap: var(--gap-2xs);
+}
+.frameParent3 {
+  flex-direction: column;
+  padding: 0 var(--padding-5xs);
+  gap: var(--gap-5xs);
+  color: var(--gray);
+}
+.block,
+.frameParent3,
+.pythonParent5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.block {
+  flex: 1;
+  border: 1px solid var(--gray);
+  flex-direction: column;
+  padding: var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.pythonParent5 {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.blockParent,
+.skills {
+  position: absolute;
+  width: 1024px;
+}
+.blockParent {
+  top: 90px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.skills {
+  top: 819px;
+  left: 171px;
+  height: 251px;
+}
+.githubIcon,
+.line10Stroke {
+  position: relative;
+  width: 1px;
+  height: 191px;
+  flex-shrink: 0;
+}
+.githubIcon {
+  width: 32px;
+  height: 32px;
+}
+.githubParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.about,
+.media {
+  background-color: var(--background);
+}
+.media {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.about {
+  position: relative;
+  width: 100%;
+  height: 2007px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--primary);
+  font-family: var(--font-fira-code);
+}
